@@ -29,11 +29,6 @@ int main() {
     int choice, number;
     // Show the menu and repeat until the user chooses to quit
     while (1) {
-        printf("\n");
-        printf("1) Reverse a 5-digit number\n");
-        printf("2) Check whether the 5-digit number is a palindrome or not\n");
-        printf("3) Find the sum of all the digits of the 5-digit number\n");
-        printf("4) Quit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice); // Read the user's choice
         switch (choice) {
